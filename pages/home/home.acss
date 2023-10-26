@@ -1,0 +1,82 @@
+.page-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em;
+  height: calc(100vh - 2em);
+}
+
+.text {
+  font-family: Inter;
+  text-align: center;
+}
+
+.greeting {
+  font-size: xx-large;
+  font-weight: 700;
+  margin: 1em;
+}
+
+.your-carbon {
+  font-size: x-large;
+  margin: 1em;
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border: 1px;
+  background-color: #06EA2A;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  margin: 1em;
+}
+
+.inner-circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  background-color: #FFF;
+  border: 1px solid #000000
+}
+
+.carbon-value {
+  font-size: xx-large;
+}
+
+.description-container {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.description {
+  font-size: larger;
+}
+
+.btn-current-emission {
+  width: 200px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #046914;
+  color: #FFF;
+  text-decoration: none;
+  font-family: Lato;
+  font-size: larger;
+  font-weight: 700;
+  text-align: center;
+}
+
+.add-emission {
+  margin: 1em;
+  text-decoration: underline;
+  font-size: larger;
+}

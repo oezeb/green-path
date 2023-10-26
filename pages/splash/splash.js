@@ -29,5 +29,7 @@ Page({
     this.onItemChanged(e.detail.current);
   },
 
-  onTapNext() {},
+  onTapNext() {
+    my.navigateTo({ url: "/pages/home/home" });
+  },
 });

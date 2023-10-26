@@ -1,5 +1,5 @@
 {
-  "pages": ["pages/splash/splash"],
+  "pages": ["pages/splash/splash", "pages/home/home"],
   "window": {
     "defaultTitle": "Green Path"
   },

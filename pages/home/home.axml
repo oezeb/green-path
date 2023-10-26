@@ -1,0 +1,18 @@
+<view class="page-home">
+    <view class="text greeting">Hello! {{user.name}}</view>
+    <view class="text your-carbon">Your carbon footprint is</view>
+    <view class="circle">
+        <view class="inner-circle">
+            <view class="text carbon-value">{{user.carbonValue}} kg CO2</view>
+        </view>
+    </view>
+    <view class="description-container">
+        <view class="text description">{{description}}</view>
+    </view>
+    <button class="btn-current-emission" onTap="onTapCurrentEmission">
+        Current emission
+    </button>
+    <view class="text add-emission" onTap="onTapAddEmission">
+        Manually add my emission
+    </view>
+</view>
