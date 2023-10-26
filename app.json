@@ -1,0 +1,9 @@
+{
+  "pages": ["pages/splash/splash"],
+  "window": {
+    "defaultTitle": "Green Path"
+  },
+  "behavior": {
+    "requestReferrerStrategy": "page"
+  }
+}

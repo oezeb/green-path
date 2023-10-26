@@ -1,0 +1,17 @@
+<view class="page-splash">
+  <view class="text title">
+    {{item.title}}
+  </view>
+  <swiper indicator-dots="{{true}}" indicator-color="#D9D9D9" indicator-active-color="#EF9E00"
+    onChange="onSwiperChange">
+    <swiper-item key="swiper-item-{{index}}" a:for="{{items}}">
+      <image src= {{item.image}} />
+    </swiper-item>
+  </swiper>
+  <view class="description-container">
+    <view class="text description">{{item.description}}</view>
+  </view>
+  <view class="next-btn-container">
+    <button class="next-btn" onTap="onTapNext">Next</button>
+  </view>
+</view>
