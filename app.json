@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/congrat/congrat",
     "pages/report/report",
     "pages/splash/splash",
     "pages/home/home"
