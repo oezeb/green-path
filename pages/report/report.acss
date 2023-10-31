@@ -1,0 +1,134 @@
+.page-report {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1em 0;
+  height: calc(100vh - 2em);
+}
+
+.scroll-view-container {
+  width: 100%;
+}
+
+scroll-view {
+  display:flex;
+}
+
+.scroll-view-item {
+  flex-shrink: 0;
+  width: 6em;
+  font-family: Inter;
+  font-size: larger;
+  font-weight: 500;
+  text-align: center;
+}
+
+.scroll-view-item-underline {
+  height: 2px;
+  background-color: #000;
+}
+
+.date-range-selector {
+  display: flex;
+  width: 100%;
+}
+
+.arrow-down {
+  width: 0; 
+  height: 0; 
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 6px solid #000;
+  margin: 5px;
+}
+
+.arrow-right {
+  width: 0; 
+  height: 0; 
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent;
+  border-left: 10px solid #000;
+}
+
+.arrow-left {
+  width: 0; 
+  height: 0; 
+  border-top: 7px solid transparent;
+  border-bottom: 7px solid transparent; 
+  border-right: 10px solid #000; 
+}
+
+.arrow-container {
+  width: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #D9D9D9;
+}
+
+.date-range-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #D9D9D9;
+  font-family: Inter;
+  font-weight: 500;
+  text-align: center;
+}
+
+.date-range-type-selector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chart-container {
+  flex-grow: 1;
+  margin: 1em;
+}
+
+.text {
+  font-family: Inter;
+  text-align: center;
+}
+
+.average-co2 {
+  font-size: larger;
+  font-weight: 500;
+  margin: 1em;
+}
+
+.co2-value {
+  font-size: large;
+  font-weight: 500;
+}
+
+.description {
+  font-size: large;
+  font-weight: 500;
+  margin: 1em;
+}
+
+
+.tips-btn-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tips-btn {
+  width: 250px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #046914;
+  color: #FFF;
+  text-decoration: none;
+  font-family: Lato;
+  font-size: larger;
+  font-weight: 700;
+  text-align: center;
+  margin: 1em;
+}

@@ -1,5 +1,9 @@
 {
-  "pages": ["pages/splash/splash", "pages/home/home"],
+  "pages": [
+    "pages/report/report",
+    "pages/splash/splash",
+    "pages/home/home"
+  ],
   "window": {
     "defaultTitle": "Green Path"
   },
