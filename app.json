@@ -1,9 +1,11 @@
 {
   "pages": [
+    "pages/add-metro-emission/add-metro-emission",
     "pages/congrat/congrat",
     "pages/report/report",
     "pages/splash/splash",
-    "pages/home/home"
+    "pages/home/home",
+    "pages/add-metro-emission/add-metro-emission"
   ],
   "window": {
     "defaultTitle": "Green Path"

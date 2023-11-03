@@ -1,0 +1,14 @@
+<view>
+  <map id="map" longitude="{{longitude}}" latitude="{{longitude}}" show-location="{{true}}" />
+  <view class="search">
+    <view class="location from" onTap="onTapFrom">
+      <view class="search-icon from-icon" />{{from.name || "From"}}
+    </view>
+    <view class="location to" onTap="onTapTo">
+      <view class="search-icon to-icon" />{{to.name || "To"}}
+    </view>
+  </view>
+  <view class="calculate-btn-container">
+    <button class="calculate-btn" onTap="onTapCalculate">Calculate</button>
+  </view>
+</view>
