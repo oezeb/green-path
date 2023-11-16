@@ -1,0 +1,61 @@
+.search {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  
+  border: 1px solid #B3B3B3;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  color: #666666;
+  font-family: Balsamiq Sans;
+  font-size: larger;
+  margin: 5px;
+}
+
+.location {
+   display: flex;
+   align-items: center;
+   margin: 5px;
+   padding: 5px;
+}
+
+.search-icon {
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  margin: 5px 25px 5px 5px;
+}
+
+.from-icon {
+  background-color: #14A42B;
+}
+
+.to-icon {
+  background-color: #EB5757;
+}
+
+.calculate-btn-container {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculate-btn {
+  width: 150px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #046914;
+  color: #FFF;
+  text-decoration: none;
+  font-family: Lato;
+  font-size: larger;
+  font-weight: 700;
+  text-align: center;
+  margin: 1em;
+}

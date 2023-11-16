@@ -1,0 +1,42 @@
+<view class="page-report">
+  <view class="scroll-view-container">
+    <scroll-view scroll-x="{{true}}">
+      <view class="scroll-view-item" id="{{index}}" key="tab-{{index}}" a:for="{{tabs}}" onTap="onTabTap"> 
+        {{item}} 
+        <view a:if="{{ index === currentTab }}" class="scroll-view-item-underline" />
+      </view>
+    </scroll-view>
+  </view>
+  <view class="date-range-selector">
+    <view class="arrow-container" onTap="prevWeek">
+      <view class="arrow-left" />
+    </view>
+    <view class="date-range-container">
+      <view class="date-range-type-selector"> 
+        Week view <view class="arrow-down" />
+      </view>
+      <view class="date-range">
+        {{dateRange.start}} - {{dateRange.end}}
+      </view>
+    </view>
+    <view class="arrow-container" onTap="nextWeek">
+      <view class="arrow-right" />
+    </view>
+  </view>
+  <view class="chart-container">
+    <f2 a:if="{{ currentTab == 0 }}" class="f2-chart" onInit="onInitChart" />
+    <f2 a:else class="f2-chart" onInit="onInitChart" />
+  </view>
+  <view class="text average-co2">
+    Average CO2
+  </view>
+  <view class="text co2-value">
+    {{ co2value }} kg
+  </view>
+  <view class="text description">
+    Lorem ipsum Lorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum
+  </view>
+  <view class="tips-btn-container">
+    <button class="tips-btn" onTap="onTapTips">Tips for improvement</button>
+  </view>
+</view>

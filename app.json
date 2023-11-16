@@ -1,9 +1,14 @@
 {
   "pages": [
+    "pages/splash/splash",
+    "pages/home/home",
+    "pages/report/report",
     "pages/piechart/piechart", 
     "pages/transport/transport", 
     "pages/bicycle/bicycle",
-    "pages/bike/bike"
+    "pages/bike/bike",
+    "pages/congrat/congrat",
+    "pages/add-metro-emission/add-metro-emission"
   ],
   "window": {
     "defaultTitle": "Green Path"
