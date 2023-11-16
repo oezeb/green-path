@@ -1,10 +1,13 @@
 {
   "pages": [
-    "pages/add-metro-emission/add-metro-emission",
-    "pages/congrat/congrat",
-    "pages/report/report",
     "pages/splash/splash",
     "pages/home/home",
+    "pages/report/report",
+    "pages/piechart/piechart", 
+    "pages/transport/transport", 
+    "pages/bicycle/bicycle",
+    "pages/bike/bike",
+    "pages/congrat/congrat",
     "pages/add-metro-emission/add-metro-emission"
   ],
   "window": {
