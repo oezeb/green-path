@@ -1,0 +1,49 @@
+.page-bicycle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+  height: calc(100vh - 2em);
+}
+
+.text {
+  font-family: Inter;
+  text-align: center;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: 550;
+  margin: 10px;
+  margin:50px;
+}
+
+.item-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  margin: 1em;
+}
+
+image {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+}
+
+.item-label {
+  font-family: Inter;
+  font-size: 19px;
+  font-weight: 550;
+  line-height: 18px;
+  letter-spacing: -0.011em;
+  text-align: left;
+  margin-left: 10px; 
+  align-self: flex-start; 
+  margin-top: 20px;
+}

@@ -1,0 +1,45 @@
+<view class="page-piechart">
+  <view class="text title">
+    Recent emission
+  </view>
+
+  <view class="text">
+    1000g CO2
+    <view class="car"> 
+      Car
+    </view>
+    <view class="border-line"> </view>
+  </view>
+
+  <view class="item">
+    Daily CO2 Emission
+    <view class="pie-chart-container">
+      <canvas class="pie-chart" id="co2PieChart"></canvas>
+    </view>
+    <view class="report" onTap="goToReport">
+      Go to report ->
+    </view>
+    <view class="underlinereport">
+    </view>
+    <view class="border-line">
+    </view>
+  </view>
+
+  <view class="text title"> 
+    Tips
+    <image src="../../assets/tips.png" />
+    <view class="tips">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    </view>
+  </view>
+
+  <view class="go-to-choose-transport" onTap="goToChooseTransport">
+    <view class="black-circle">
+      <view class="white-cross">
+        +
+      </view>
+    </view>
+    Go to choose transport
+  </view>
+</view>
+
