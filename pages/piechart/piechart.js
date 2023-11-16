@@ -48,7 +48,7 @@ Page({
 
   goToReport() {
     my.navigateTo({
-      url: 'report', // The URL of the "report" page
+      url: '/pages/report/report', // The URL of the "report" page
     });
   },
 
