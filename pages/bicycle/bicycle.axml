@@ -1,0 +1,24 @@
+<view class="page-bicycle">
+  <view class= "text title">
+    Choose your type of bicycle
+  </view>
+  <view class="item-list">
+    <view class="item"  onTap="onTapBicycle">
+      <image src="../../assets/transport.png" />
+      <view class="text item-label">
+        Bicycle
+      </view>
+    </view>
+    <view class="item"  onTap="onTapElectricbike">
+      <image src="../../assets/transport.png" />
+      <view class="text item-label">
+        Electric bike
+      </view>
+    </view>
+  </view>
+</view>
+
+
+
+
+

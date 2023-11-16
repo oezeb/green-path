@@ -1,5 +1,10 @@
 {
-  "pages": ["pages/splash/splash", "pages/home/home"],
+  "pages": [
+    "pages/piechart/piechart", 
+    "pages/transport/transport", 
+    "pages/bicycle/bicycle",
+    "pages/bike/bike"
+  ],
   "window": {
     "defaultTitle": "Green Path"
   },

@@ -1,0 +1,44 @@
+<view class= "page-transport">
+  <view class= "text title">
+    Choose your transporation type
+  </view>
+  <view class= "item-list">
+    <view class= "item" onTap="onTapWalk_Run">
+      <image src="../../assets/transport.png" />
+      <view class= "text item-label">
+          Walk/Run
+      </view>
+    </view>
+    <view class= "item" onTap="onTapBike">
+      <image src="../../assets/transport.png" />
+      <view class= "text item-label">
+          Bike
+      </view>
+    </view>
+    <view class= "item" onTap="onTapMotocycle">
+      <image src="../../assets/transport.png" />
+      <view class= "text item-label">
+          Motocycle
+      </view>
+    </view>
+    <view class= "item" onTap="onTapCar">
+      <image src="../../assets/transport.png" />
+      <view class= "text item-label">
+          Car
+      </view>
+    </view>
+    <view class= "item" onTap="onTapMetro">
+      <image src="../../assets/transport.png" />
+      <view class= "text item-label">
+          Metro
+      </view>
+    </view>
+    <view class= "item" onTap="onTapFlight">
+      <image src="../../assets/transport.png" />
+      <view class= "text item-label">
+          Flight
+      </view>
+    </view>
+  </view>
+  
+</view>
