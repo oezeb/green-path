@@ -13,7 +13,7 @@ Page({
     my.navigateTo({ url: "#" });
   },
   onTapMetro() {
-    my.navigateTo({ url: "#" });
+    my.navigateTo({ url: "/pages/add-metro-emission/add-metro-emission" });
   },
   onTapFlight() {
     my.navigateTo({ url: "#" });
