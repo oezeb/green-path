@@ -1,0 +1,29 @@
+<view class="page-type-of-transportation">
+  <view class="text">From</view>
+  <input placeholder="in kilometres" />
+  <view class="text">To</view>
+  <input placeholder="in kilometres" />
+  <view class="text">Via</view>
+  <input placeholder="in kilometres" />
+  <radio-group onChange="radioChange" name="flightType">
+    <label class="radio-label-{{index}}" a:for="{{flightTypes}}">
+      <radio value="{{index}}" checked="{{currentType == index}}" color="#000000" />
+      <text>{{item}}</text>
+    </label>
+  </radio-group>
+  <view class="dropdown-container" bindtap="showDropdown">
+    <view class="picker-container">
+      <picker class="picker" value="{{currentFuelType}}" range="{{fuelTypes}}" onChange="onFuelTypeChange">
+        <view class="car-type">
+          <view class="car-type-text">
+            {{fuelTypes[currentFuelType]}}
+          </view>
+          <view class="arrow-down" />
+        </view>
+      </picker>
+    </view>
+  </view>
+  <button onclick="onCalculate">
+    Calculate
+  </button>
+</view>

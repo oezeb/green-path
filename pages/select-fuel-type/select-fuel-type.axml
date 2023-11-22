@@ -1,0 +1,33 @@
+<view class = "page-select-fuel-type">
+  <view class="text">Distance travel</view>
+  <input placeholder="in kilometres"/>
+  <view class="text">Fuel type</view>
+  <view class="dropdown-container" bindtap="showDropdown">
+    <view class="picker-container">
+      <picker class="picker" value="{{currentFuelType}}" range="{{fuelTypes}}">
+        <view class="car-type">
+          <view class="car-type-text">
+            {{fuelTypes[currentFuelType]}}
+          </view>
+          <view class="arrow-down" />
+        </view>
+      </picker>
+    </view>
+  </view>
+  <view>
+    <view class="text">
+      Input car type
+    </view>
+    <view>
+      <radio-group>
+        <label a:for="{{items}}">
+          <radio value="{{item.value}}" checked="{{item.checked}}" />
+          {{item.value}}
+        </label>
+      </radio-group>
+    </view>
+  </view>
+  <button onclick="onTapCalculate">
+    Calculate
+  </button>
+</view>

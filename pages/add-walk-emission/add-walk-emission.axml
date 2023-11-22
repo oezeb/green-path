@@ -1,0 +1,13 @@
+<view class="page-add-walk-emission">
+  <view class="text">
+    How long did you walk?
+  </view>
+  <input placeholder="in minutes" />
+  <view class="text">
+    What is the estimated distance that you walked?
+  </view>
+  <input placeholder="in kilometres" />
+  <button onTap="onTapCalculate">
+    Calculate
+  </button>
+</view>

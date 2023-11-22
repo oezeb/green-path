@@ -1,0 +1,15 @@
+<view class = "page-add-drive-emission">
+  <view class="text">How long did you drive?</view>
+  <view class="input-container">
+    <input placeholder="in minutes" />
+  </view>
+  <view class="text">
+    What is the estimated distance that you drove?
+  </view>
+  <view class="input-container">
+    <input placeholder="in kilometres" />
+  </view>
+  <button onTap="onTapCalculate">
+    Calculate
+  </button>
+</view>
