@@ -1,0 +1,48 @@
+.page-congrat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1em;
+  height: calc(100vh - 2em);
+}
+
+.text {
+  font-family: Inter;
+  font-size: larger;
+  font-weight: 500;
+  text-align: center;
+}
+
+.co2value {
+  margin-bottom: 2em;
+}
+
+.image-container {
+  display: flex;
+}
+
+image {
+  height: 400px;
+}
+
+.home-btn-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-btn {
+  width: 100px;
+  height: 50px;
+  border-radius: 25px;
+  background-color: #046914;
+  color: #FFF;
+  text-decoration: none;
+  font-family: Lato;
+  font-size: larger;
+  font-weight: 700;
+  text-align: center;
+  margin: 1em;
+}

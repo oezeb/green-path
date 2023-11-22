@@ -1,0 +1,124 @@
+/* Style for the overall container */
+.page-piechart {
+  padding: 20px;
+}
+
+/* Style for the title */
+.text.title {
+  font-size: 20px;
+
+}
+
+/* Style for the CO2 emissions text */
+.text {
+  font-size: 18px;
+}
+
+
+.car {
+  color: #3498db; /* Car-related color */
+  float: right; /* Move the "Car" text to the right */
+}
+
+
+/* Style for the border line */
+.border-line {
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+
+/* Style for the "Daily CO2 emission" section */
+.item {
+  font-size: 18px;
+}
+
+/* Style for the pie chart container */
+.pie-chart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 300px; /* Adjust the height as needed */
+  margin: 20px 0;
+}
+
+/* Style for the pie chart canvas */
+.pie-chart {
+  width: 87%; /* Adjust the width as needed */
+  height: 100%; /* Adjust the height as needed */
+  display: block;
+}
+
+/* Style for the legend container */
+.legend-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+
+/* Style for legend items */
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Style for the "Go to report" link */
+.report {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 18px;
+  color: #3498db; /* Link color */
+}
+
+/* Style for the "Go to report" link underline */
+.underlinereport {
+  border-bottom: 1px solid #3498db;
+  text-align: center;
+  margin: 10px 0;
+}
+
+/* Style for the tips section */
+.tips {
+  font-size: 18px;
+  color: #666; /* Gray text color */
+  text-align: center; /* Center the text */
+}
+
+
+image {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+}
+
+
+
+
+/* Style for the "Go to choose transport" section */
+.go-to-choose-transport {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+  font-size: 18px;
+  color: black;
+}
+
+/* Style for the black circle */
+.black-circle {
+  width: 70px;
+  height: 70px;
+  background-color: black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style for the white cross in the black circle */
+.white-cross {
+  font-size: 40px;
+  color: white;
+}

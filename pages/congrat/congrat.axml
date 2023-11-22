@@ -1,0 +1,14 @@
+<view class="page-congrat">
+  <view class="text you-saved">
+    You saved
+  </view>
+  <view class="text co2value">
+    {{co2value}}g CO2
+  </view>
+  <view class="image-container">
+    <image src="../../assets/congrats.png" />
+  </view>
+  <view class="home-btn-container">
+    <button class="home-btn" onTap="onTapHome">Home</button>
+  </view>
+</view>
