@@ -1,5 +1,12 @@
 {
-  "pages": ["pages/splash/splash", "pages/home/home"],
+ "pages":[
+  "pages/add-drive-emission/add-drive-emission",
+  "pages/add-walk-emission/add-walk-emission",
+  "pages/home/home",
+  "pages/select-fuel-type/select-fuel-type",
+  "pages/splash/splash",
+  "pages/type-of-transportation/type-of-transportation"
+ ],
   "window": {
     "defaultTitle": "Green Path"
   },
