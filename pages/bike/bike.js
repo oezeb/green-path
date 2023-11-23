@@ -1,12 +1,9 @@
 Page({
-
   onTapRental() {
-    my.navigateTo({ url: "#" });
+    my.navigateTo({ url: "/pages/calculate-motorbike-emission/calculate-motorbike-emission" });
   },
+  
   onTapOwned() {
-    my.navigateTo({ url: "#" });
+    my.navigateTo({ url: "/pages/calculate-motorbike-emission/calculate-motorbike-emission" });
   },
-
-
-
 })

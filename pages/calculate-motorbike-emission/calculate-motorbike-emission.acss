@@ -1,0 +1,46 @@
+.page-add-walk-emission {
+  display: flex;
+  flex-direction: column;
+  margin: 2em;
+  height: calc(100vh - 4em);
+}
+
+.text {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: x-large;
+  text-align: center;
+  text-align: justify;
+  
+}
+
+input {
+  border: 1px solid #B3B3B3;
+  border-radius: 5px;
+  width: 100%;
+  height: 2em;
+  font-family: balsamiq sans;
+  font-size: x-large;
+  width: 100%;
+  margin: 1em 0em;
+  text-align: justify;
+  text-align: center;
+  padding: 0%;
+  
+}
+
+button {
+  width: 150px;
+  height: 64px;
+  align-self: center;
+  border-radius: 32px;
+  background-color: #046914;
+  margin: 2em;
+  font-family: lato;
+  font-weight: 700;
+  font-size: x-larger;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

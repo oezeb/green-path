@@ -23,7 +23,7 @@
       </picker>
     </view>
   </view>
-  <button onclick="onCalculate">
+  <button onTap="onTapCalculate">
     Calculate
   </button>
 </view>

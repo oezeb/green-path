@@ -4,7 +4,7 @@
   <view class="text">Fuel type</view>
   <view class="dropdown-container" bindtap="showDropdown">
     <view class="picker-container">
-      <picker class="picker" value="{{currentFuelType}}" range="{{fuelTypes}}">
+      <picker class="picker" value="{{currentFuelType}}" range="{{fuelTypes}}" onChange="onFuelTypeChange">
         <view class="car-type">
           <view class="car-type-text">
             {{fuelTypes[currentFuelType]}}
@@ -27,7 +27,7 @@
       </radio-group>
     </view>
   </view>
-  <button onclick="onTapCalculate">
+  <button onTap="onTapCalculate">
     Calculate
   </button>
 </view>

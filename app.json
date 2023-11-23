@@ -3,8 +3,8 @@
     "pages/splash/splash",
     "pages/home/home",
     "pages/report/report",
-    "pages/piechart/piechart", 
-    "pages/transport/transport", 
+    "pages/piechart/piechart",
+    "pages/transport/transport",
     "pages/bicycle/bicycle",
     "pages/bike/bike",
     "pages/congrat/congrat",
@@ -12,7 +12,9 @@
     "pages/add-drive-emission/add-drive-emission",
     "pages/add-walk-emission/add-walk-emission",
     "pages/select-fuel-type/select-fuel-type",
-    "pages/type-of-transportation/type-of-transportation"
+    "pages/type-of-transportation/type-of-transportation",
+    "pages/calculate-motorbike-emission/calculate-motorbike-emission",
+    "pages/calculate-motorbike-emission/calculate-motorbike-emission"
   ],
   "window": {
     "defaultTitle": "Green Path"

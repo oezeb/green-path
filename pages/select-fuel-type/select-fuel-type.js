@@ -4,6 +4,8 @@ Page({
       { value: 'Roundtrip', checked: true },
       { value: 'One-way', checked: false },
     ],
+    fuelTypes: ["Biodiesel", "Biogas", "Diesel", "E10(Ethanol)", "E85(Ethanol)", "Electric"],
+    currentFuelType: 0,
   },
   
   toggleRadio(e) {
@@ -17,4 +19,14 @@ Page({
       items,
     });
   },
+
+  onFuelTypeChange(e) { 
+    this.setData({
+      currentFuelType: Number(e.detail.value),
+    });
+  },
+
+  onTapCalculate() {
+    my.navigateTo({ url: "/pages/congrat/congrat" })
+  }
 });
